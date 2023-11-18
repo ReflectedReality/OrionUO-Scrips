@@ -52,3 +52,6 @@ function DurabilityGump()
     }
 }
 ```
+
+![image](https://github.com/ReflectedReality/OrionUO-Scrips/assets/17112764/3a782b28-6624-45f8-b3a6-8e510b70377a)
+
