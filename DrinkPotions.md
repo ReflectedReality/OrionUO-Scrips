@@ -1,5 +1,5 @@
 ```js
-function Pripiv()
+function DrinkPotions()
 {
     var normalJewelry = ['0x4008732A', '0x40094716', '0x40019390', '0x40093BCB'];   // jewelry ids without enhance potions
     var enhencedJewelry = ['0x400921CC', '0x40037DFF', '0x40086F75', '0x4009511D']; // jewelry ids with enhance potions
