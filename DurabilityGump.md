@@ -31,21 +31,22 @@ function DurabilityGump()
     
             if(item !=null)
             {
-                var props =  item.Properties();
+                 var props =  item.Properties();
                  var regEx = /(Durability\D*)(\d*.*\/\d*.*)/g;
                  var matches = regEx.exec(props);
                  
                  if(matches  != null)
                  {
-                     var durCurMax = matches[2].split('/');
-                      var percents =  Math.round(durCurMax[0]* 100 / durCurMax[1]);
+                    var durCurMax = matches[2].split('/');
+                    var percents =  Math.round(durCurMax[0]* 100 / durCurMax[1]);
     
-                      gump.AddText(x, y, (percents  > 75 ? 0x0106: (percents  < 25 ? 0x0026: 0x002B)), '[' + percents +'%]');
+                    gump.AddText(x, y, (percents  > 75 ? 0x0106: (percents  < 25 ? 0x0026: 0x002B)), '[' + percents +'%]');
                     gump.AddText(x+45, y, 0xFFFE,  layers[i][1]);
-                     y += 15;
+                    y += 15;
                  }
             }     
         }
+
         gump.Update();
         Orion.Wait('5m');
     }
