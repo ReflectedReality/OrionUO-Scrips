@@ -1,3 +1,4 @@
+```js
 function Peacemaking()
 {
     var musicInstrumentType = '0x0E9D'; // тип инструмента
@@ -26,3 +27,4 @@ function Peacemaking()
         }
     }
 }
+```
