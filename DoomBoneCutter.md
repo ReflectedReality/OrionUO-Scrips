@@ -1,3 +1,4 @@
+```js 
 function DoomBoneCutter()
 {
 	while(true)
@@ -22,3 +23,4 @@ function DoomBoneCutter()
 		Orion.Wait(500);
 	}
 }
+```
