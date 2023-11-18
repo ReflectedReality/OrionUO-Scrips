@@ -1,3 +1,4 @@
+```js
 function DurabilityGump()
 {
     var gump = Orion.CreateCustomGump(101);   
@@ -49,3 +50,4 @@ function DurabilityGump()
         Orion.Wait('5m');
     }
 }
+```
